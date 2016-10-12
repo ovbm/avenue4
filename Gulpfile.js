@@ -6,7 +6,9 @@ gulp.task('commit-changes', function () {
   return gulp.src('.')
     .pipe(git.add())
     .pipe(git.commit('autosave'));
-    git.push('origin', 'master', cb);
+    git.push('origin', 'master', function (err) {
+      if (err) throw err;
+    });
 });
 
 //Develop task
