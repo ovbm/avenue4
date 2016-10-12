@@ -5,9 +5,9 @@
   <generalInfo name="jptr lights" desc="" width="166" height="65" deckCount="4"
                decksClosed="0" filePathType="0"/>
   <deckInfo>
-    <deck id="110263804" orderId="0" name="Intro" numClips="22" closed="0">
+    <deck id="110263804" orderId="0" name="Part 1" numClips="22" closed="0">
       <settings id="110263804">
-        <name value="Intro"/>
+        <name value="Part 1"/>
         <select>
           <midiShortcut isContextual="0" path="" type="3" optionIndex="-1" loop="0" numBytes="3"
                         byte1="144" byte2="64" byte3="127" timeStamp="110530.843" controllerType="1"
@@ -16,10 +16,9 @@
         </select>
       </settings>
     </deck>
-    <deck id="238336632" orderId="1" name="Transformers" numClips="23"
-          closed="0">
+    <deck id="238336632" orderId="1" name="Part 2" numClips="23" closed="0">
       <settings id="238336632">
-        <name value="Transformers"/>
+        <name value="Part 2"/>
         <select>
           <midiShortcut isContextual="0" path="" type="3" optionIndex="-1" loop="0" numBytes="3"
                         byte1="144" byte2="65" byte3="127" timeStamp="110541.374" controllerType="1"
@@ -51,7 +50,7 @@
       </settings>
     </deck>
   </deckInfo>
-  <layerInfo layerCount="7" trackCount="11"/>
+  <layerInfo layerCount="7" trackCount="15"/>
   <playbackInfo>
     <bpm curValue="150" defaultValue="120" startValue="2" stopValue="500"/>
     <paused value="0"/>
@@ -1161,8 +1160,12 @@
   <track/>
   <track/>
   <track/>
+  <track/>
+  <track/>
+  <track/>
+  <track/>
   <decks>
-    <deck id="110263804" orderId="0" name="Intro" numClips="22" closed="0">
+    <deck id="110263804" orderId="0" name="Part 1" numClips="22" closed="0">
       <clip uniqueId="108867980" layerIndex="2" trackIndex="1">
         <settings fileId="-589740886">
           <name value="white_cross"/>
@@ -7335,8 +7338,7 @@
         <audioClip/>
       </clip>
     </deck>
-    <deck id="238336632" orderId="1" name="Transformers" numClips="23"
-          closed="0">
+    <deck id="238336632" orderId="1" name="Part 2" numClips="23" closed="0">
       <clip uniqueId="4343842" layerIndex="0" trackIndex="7">
         <settings fileId="-1887784111">
           <name value="TF Vertical Screens dvx"/>
