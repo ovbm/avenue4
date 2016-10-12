@@ -51,7 +51,7 @@
       </settings>
     </deck>
   </deckInfo>
-  <layerInfo layerCount="7" trackCount="16"/>
+  <layerInfo layerCount="7" trackCount="11"/>
   <playbackInfo>
     <bpm curValue="150" defaultValue="120" startValue="2" stopValue="500"/>
     <paused value="0"/>
@@ -700,12 +700,12 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
-          <parameter orgDuration="25000000" duration="5000">
+          <parameter orgDuration="90590500" duration="5000">
             <name value="Position"/>
             <nameGiven value="Position"/>
             <textValue value=""/>
             <extended value="0"/>
-            <values curValue="13245.4242" defaultValue="0" startValue="0" stopValue="18118.1"/>
+            <values curValue="1" defaultValue="1" startValue="0" stopValue="1"/>
             <pointsOfInterest value="0"/>
             <jumpToPointsOfInterest value="-1"/>
             <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -839,7 +839,7 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
-          <parameter orgDuration="135135000" duration="5000">
+          <parameter orgDuration="101935166" duration="5000">
             <name value="Position"/>
             <nameGiven value="Position"/>
             <textValue value=""/>
@@ -1161,11 +1161,6 @@
   <track/>
   <track/>
   <track/>
-  <track/>
-  <track/>
-  <track/>
-  <track/>
-  <track/>
   <decks>
     <deck id="110263804" orderId="0" name="Intro" numClips="22" closed="0">
       <clip uniqueId="108867980" layerIndex="2" trackIndex="1">
@@ -1454,6 +1449,7 @@
           <nameGiven value="EP Moon dvx"/>
           <desc value="empty clip"/>
           <quantization value="1"/>
+          <triggerStyle value="1"/>
           <connect>
             <midiShortcut isContextual="0" path="" type="3" optionIndex="-1" loop="0" numBytes="3"
                           byte1="144" byte2="34" byte3="127" timeStamp="333291.634" controllerType="1"
@@ -5467,7 +5463,7 @@
               <nameGiven value="Link 1"/>
               <textValue value=""/>
               <extended value="0"/>
-              <values curValue="0.18" defaultValue="0.5" startValue="0" stopValue="1"/>
+              <values curValue="0.656" defaultValue="0.5" startValue="0" stopValue="1"/>
               <pointsOfInterest value="0"/>
               <jumpToPointsOfInterest value="-1"/>
               <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -5518,7 +5514,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="19227.1357" defaultValue="0" startValue="0" stopValue="27794.4333"/>
+                <values curValue="23936.6857" defaultValue="0" startValue="0" stopValue="27794.4333"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="0.646508247" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -5551,7 +5547,7 @@
                          duration="105.421687" linkedParamPath="/layer/clip/link1/" linkedToPositionOnly="1">
                 <name value="Position Y"/>
                 <nameGiven value="Position Y"/>
-                <values curValue="-171.735904" defaultValue="0" startValue="-296.096386"
+                <values curValue="157.128482" defaultValue="0" startValue="-296.096386"
                         stopValue="394.795181"/>
                 <direction value="0"/>
               </parameter>
@@ -10322,7 +10318,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="13232.635" defaultValue="0" startValue="0" stopValue="18118.1"/>
+                <values curValue="17192.4955" defaultValue="0" startValue="0" stopValue="18118.1"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
