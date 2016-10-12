@@ -16,7 +16,7 @@
         </select>
       </settings>
     </deck>
-    <deck id="238336632" orderId="1" name="Transformers" numClips="22"
+    <deck id="238336632" orderId="1" name="Transformers" numClips="23"
           closed="0">
       <settings id="238336632">
         <name value="Transformers"/>
@@ -51,7 +51,7 @@
       </settings>
     </deck>
   </deckInfo>
-  <layerInfo layerCount="7" trackCount="15"/>
+  <layerInfo layerCount="7" trackCount="16"/>
   <playbackInfo>
     <bpm curValue="150" defaultValue="120" startValue="2" stopValue="500"/>
     <paused value="0"/>
@@ -600,7 +600,7 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
-          <parameter orgDuration="1.46366666e+09" duration="5000">
+          <parameter orgDuration="25000000" duration="5000">
             <name value="Position"/>
             <nameGiven value="Position"/>
             <textValue value=""/>
@@ -749,7 +749,7 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
-          <parameter orgDuration="25000000" duration="5000">
+          <parameter orgDuration="58725333.3" duration="5000">
             <name value="Position"/>
             <nameGiven value="Position"/>
             <textValue value=""/>
@@ -888,7 +888,7 @@
           <mixer value="1984087" index="2" selected="0"/>
         </mixers>
         <parameters>
-          <parameter orgDuration="312145166" duration="5000">
+          <parameter orgDuration="58725333.3" duration="5000">
             <name value="Position"/>
             <nameGiven value="Position"/>
             <textValue value=""/>
@@ -1243,6 +1243,7 @@
       </connect>
     </settings>
   </track>
+  <track/>
   <track/>
   <track/>
   <track/>
@@ -6173,7 +6174,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="5752.7237" defaultValue="0" startValue="0" stopValue="11745.0667"/>
+                <values curValue="4522.18441" defaultValue="0" startValue="0" stopValue="11745.0667"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -7423,7 +7424,7 @@
         <audioClip/>
       </clip>
     </deck>
-    <deck id="238336632" orderId="1" name="Transformers" numClips="22"
+    <deck id="238336632" orderId="1" name="Transformers" numClips="23"
           closed="0">
       <clip uniqueId="4343842" layerIndex="0" trackIndex="7">
         <settings fileId="-1887784111">
@@ -10324,7 +10325,245 @@
         </videoClip>
         <audioClip/>
       </clip>
-      <clip uniqueId="4344034" layerIndex="3" trackIndex="14">
+      <clip uniqueId="441755278" layerIndex="4" trackIndex="0">
+        <settings fileId="73424607">
+          <name value="Lines"/>
+          <nameGiven value="Lines"/>
+          <desc value="empty clip"/>
+          <quantization value="1"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+          <ui>
+            <propertySectionsState value="0">
+              <choices>
+                <choice index="0" value="110" name="Dashboard" isEnabled="1" isActive="0"/>
+                <choice index="1" value="123" name="Video Info" isEnabled="1" isActive="1"/>
+                <choice index="2" value="121" name="Video FX" isEnabled="1" isActive="1"/>
+                <choice index="3" value="122" name="Video Transform" isEnabled="1" isActive="0"/>
+                <choice index="4" value="124" name="Video Mask" isEnabled="1" isActive="0"/>
+                <choice index="5" value="133" name="Audio Info" isEnabled="1" isActive="1"/>
+                <choice index="6" value="131" name="Audio FX" isEnabled="1" isActive="1"/>
+                <choice index="7" value="132" name="Audio Transform" isEnabled="1" isActive="1"/>
+                <choice index="8" value="140" name="Source" isEnabled="1" isActive="1"/>
+                <choice index="9" value="150" name="Transport" isEnabled="1" isActive="1"/>
+                <choice index="10" value="160" name="Cue points" isEnabled="1" isActive="0"/>
+                <choice index="11" value="170" name="Beatlooper" isEnabled="1" isActive="0"/>
+                <choice index="12" value="180" name="Auto Pilot" isEnabled="1" isActive="0"/>
+                <choice index="13" value="125" name="UV Map" isEnabled="1" isActive="0"/>
+                <choice index="14" value="126" name="UV Map Dest" isEnabled="1" isActive="0"/>
+              </choices>
+            </propertySectionsState>
+          </ui>
+        </settings>
+        <videoClip>
+          <source type="ffgl" couldContainVideo="1" name="Lines" shortName="Lines"
+                  uniqueId="P201" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/Lines.bundle/Contents/MacOS/Lines"/>
+          <provider transparent="1">
+            <parameters>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Fuzzyness"/>
+                <values curValue="0" defaultValue="0.100000001" startValue="0" stopValue="1"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Line Width"/>
+                <values curValue="0.0311804009" defaultValue="0.150000006" startValue="0"
+                        stopValue="1"/>
+              </parameter>
+              <parameter>
+                <name value="param3"/>
+                <nameGiven value="Num Lines"/>
+                <values curValue="0.679287305" defaultValue="0.0500000007" startValue="0"
+                        stopValue="1"/>
+              </parameter>
+              <parameter>
+                <name value="param4"/>
+                <nameGiven value="Rotation"/>
+                <values curValue="0.436525612" defaultValue="0" startValue="0" stopValue="1"/>
+              </parameter>
+              <parameter>
+                <name value="param5"/>
+                <nameGiven value="Line Pos"/>
+                <values curValue="0.483660131" defaultValue="0.5" startValue="0" stopValue="1"/>
+              </parameter>
+            </parameters>
+            <settings>
+              <parameter paramControlType="2">
+                <name value="Render Width"/>
+                <nameGiven value="Render Width"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Render Height"/>
+                <nameGiven value="Render Height"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Duration"/>
+                <nameGiven value="Duration"/>
+                <values curValue="5000" defaultValue="5000" startValue="0" stopValue="2.0736e+09"/>
+              </parameter>
+            </settings>
+          </provider>
+          <settings name="Lines" desc="Source&#13;&#10;&#13;&#10;" fileId="73424607"
+                    renderPassOrder="0,1,2">
+            <playbackSettings>
+              <timelineMode value="3"/>
+              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="2" paramControlType="1" orgDuration="5000"
+                         duration="5000">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="667.910729" defaultValue="0" startValue="0" stopValue="5000"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="8" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+          <effects>
+            <effect uniquePresetId="10000" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/InfiniteZoom.bundle/Contents/MacOS/InfiniteZoom"
+                    uniqueId="P205" name="Infinite Zoom">
+              <versionInfo name="Resolume Avenue" majorVersion="4" minorVersion="6" microVersion="1"
+                           revision="56475" id="0"/>
+              <parameter>
+                <name value="Opacity"/>
+                <nameGiven value="Opacity"/>
+              </parameter>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Rotation Speed"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Zoom"/>
+              </parameter>
+              <parameter>
+                <name value="param3"/>
+                <nameGiven value="Range"/>
+              </parameter>
+              <parameter>
+                <name value="param4"/>
+                <nameGiven value="Alpha"/>
+              </parameter>
+              <parameter>
+                <name value="param5"/>
+                <nameGiven value="Num Slices"/>
+              </parameter>
+            </effect>
+            <effect uniquePresetId="10000" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/AVFFGLBrightnessContrast.bundle/Contents/MacOS/AVFFGLBrightnessContrast"
+                    uniqueId="A102" name="Bright.Contrast">
+              <versionInfo name="Resolume Avenue" majorVersion="4" minorVersion="6" microVersion="1"
+                           revision="56475" id="0"/>
+              <parameter>
+                <name value="Opacity"/>
+                <nameGiven value="Opacity"/>
+              </parameter>
+              <parameter>
+                <name value="param1"/>
+                <nameGiven value="Brightness"/>
+                <values curValue="1" defaultValue="0.5" startValue="0" stopValue="1"/>
+              </parameter>
+              <parameter>
+                <name value="param2"/>
+                <nameGiven value="Contrast"/>
+                <values curValue="1" defaultValue="0.5" startValue="0" stopValue="1"/>
+              </parameter>
+            </effect>
+          </effects>
+        </videoClip>
+        <audioClip/>
+      </clip>
+      <clip uniqueId="441755407" layerIndex="4" trackIndex="1">
+        <settings fileId="-1887784111">
+          <name value="TF Vertical Screens dvx"/>
+          <nameGiven value="TF Vertical Screens dvx"/>
+          <desc value="empty clip"/>
+          <quantization value="1"/>
+          <autoPilot>
+            <action value="-1"/>
+          </autoPilot>
+        </settings>
+        <videoClip>
+          <source type="file" couldContainVideo="1" couldContainAudio="0" name="/Users/Obauma/Movies/JPTR Versa Clips/Production/TF Vertical Screens dvx.mov"
+                  shortName="TF Vertical Screens dvx.mov" ext=".mov"/>
+          <settings name="TF Vertical Screens dvx" desc="DXV 3.0 Normal Quality, No Alpha&#13;&#10;1312x504&#13;&#10;29.97 FPS, 00:00:11.745"
+                    fileId="-1887784111" renderPassOrder="0,1,2">
+            <aScale value="0"/>
+            <playbackSettings>
+              <beats curValue="16" defaultValue="4" startValue="1" stopValue="10000"/>
+            </playbackSettings>
+            <parameters>
+              <parameter paramType="10" paramSubType="2" paramControlType="1" orgDuration="11745.0667"
+                         duration="11745.0667">
+                <name value="Position"/>
+                <nameGiven value="Position"/>
+                <textValue value=""/>
+                <extended value="0"/>
+                <values curValue="4908.16495" defaultValue="0" startValue="0" stopValue="11745.0667"/>
+                <pointsOfInterest value="0"/>
+                <jumpToPointsOfInterest value="-1"/>
+                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
+                <direction value="0"/>
+                <playmode value="1"/>
+                <playmodeAway value="0"/>
+                <linkMultiplier curValue="16" defaultValue="1" startValue="1" stopValue="4096"/>
+                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
+                <modifiers>
+                  <modifier type="4" index="1000">
+                    <properties>
+                      <easeIn value="0"/>
+                      <easeOut value="1"/>
+                      <option value="2"/>
+                    </properties>
+                  </modifier>
+                </modifiers>
+              </parameter>
+              <parameter>
+                <name value="Scale"/>
+                <nameGiven value="Scale"/>
+                <values curValue="18.7265918" defaultValue="100" startValue="0" stopValue="1000"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position X"/>
+                <nameGiven value="Position X"/>
+              </parameter>
+              <parameter paramControlType="2">
+                <name value="Position Y"/>
+                <nameGiven value="Position Y"/>
+              </parameter>
+            </parameters>
+          </settings>
+        </videoClip>
+        <audioClip/>
+      </clip>
+      <clip uniqueId="4344034" layerIndex="4" trackIndex="14">
         <settings fileId="-1025488769">
           <name value="Effect Clip"/>
           <nameGiven value="RandomTiles"/>
@@ -10370,7 +10609,7 @@
                 <nameGiven value="Position"/>
                 <textValue value=""/>
                 <extended value="0"/>
-                <values curValue="2759.9713" defaultValue="0" startValue="0" stopValue="5000"/>
+                <values curValue="1932.90825" defaultValue="0" startValue="0" stopValue="5000"/>
                 <pointsOfInterest value="0"/>
                 <jumpToPointsOfInterest value="-1"/>
                 <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
@@ -10590,181 +10829,6 @@
               <parameter paramType="0">
                 <name value="param12"/>
                 <nameGiven value="Black BG"/>
-              </parameter>
-            </effect>
-          </effects>
-        </videoClip>
-        <audioClip/>
-      </clip>
-      <clip uniqueId="441755278" layerIndex="4" trackIndex="0">
-        <settings fileId="73424607">
-          <name value="Lines"/>
-          <nameGiven value="Lines"/>
-          <desc value="empty clip"/>
-          <quantization value="1"/>
-          <autoPilot>
-            <action value="-1"/>
-          </autoPilot>
-          <ui>
-            <propertySectionsState value="0">
-              <choices>
-                <choice index="0" value="110" name="Dashboard" isEnabled="1" isActive="0"/>
-                <choice index="1" value="123" name="Video Info" isEnabled="1" isActive="1"/>
-                <choice index="2" value="121" name="Video FX" isEnabled="1" isActive="1"/>
-                <choice index="3" value="122" name="Video Transform" isEnabled="1" isActive="0"/>
-                <choice index="4" value="124" name="Video Mask" isEnabled="1" isActive="0"/>
-                <choice index="5" value="133" name="Audio Info" isEnabled="1" isActive="1"/>
-                <choice index="6" value="131" name="Audio FX" isEnabled="1" isActive="1"/>
-                <choice index="7" value="132" name="Audio Transform" isEnabled="1" isActive="1"/>
-                <choice index="8" value="140" name="Source" isEnabled="1" isActive="1"/>
-                <choice index="9" value="150" name="Transport" isEnabled="1" isActive="1"/>
-                <choice index="10" value="160" name="Cue points" isEnabled="1" isActive="0"/>
-                <choice index="11" value="170" name="Beatlooper" isEnabled="1" isActive="0"/>
-                <choice index="12" value="180" name="Auto Pilot" isEnabled="1" isActive="0"/>
-                <choice index="13" value="125" name="UV Map" isEnabled="1" isActive="0"/>
-                <choice index="14" value="126" name="UV Map Dest" isEnabled="1" isActive="0"/>
-              </choices>
-            </propertySectionsState>
-          </ui>
-        </settings>
-        <videoClip>
-          <source type="ffgl" couldContainVideo="1" name="Lines" shortName="Lines"
-                  uniqueId="P201" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/Lines.bundle/Contents/MacOS/Lines"/>
-          <provider transparent="1">
-            <parameters>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Fuzzyness"/>
-                <values curValue="0" defaultValue="0.100000001" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Line Width"/>
-                <values curValue="0.0311804009" defaultValue="0.150000006" startValue="0"
-                        stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param3"/>
-                <nameGiven value="Num Lines"/>
-                <values curValue="0.679287305" defaultValue="0.0500000007" startValue="0"
-                        stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param4"/>
-                <nameGiven value="Rotation"/>
-                <values curValue="0.436525612" defaultValue="0" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param5"/>
-                <nameGiven value="Line Pos"/>
-                <values curValue="0.483660131" defaultValue="0.5" startValue="0" stopValue="1"/>
-              </parameter>
-            </parameters>
-            <settings>
-              <parameter paramControlType="2">
-                <name value="Render Width"/>
-                <nameGiven value="Render Width"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Render Height"/>
-                <nameGiven value="Render Height"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Duration"/>
-                <nameGiven value="Duration"/>
-                <values curValue="5000" defaultValue="5000" startValue="0" stopValue="2.0736e+09"/>
-              </parameter>
-            </settings>
-          </provider>
-          <settings name="Lines" desc="Source&#13;&#10;&#13;&#10;" fileId="73424607"
-                    renderPassOrder="0,1,2">
-            <playbackSettings>
-              <timelineMode value="3"/>
-              <beats curValue="8" defaultValue="4" startValue="1" stopValue="10000"/>
-            </playbackSettings>
-            <parameters>
-              <parameter paramType="10" paramSubType="2" paramControlType="1" orgDuration="5000"
-                         duration="5000">
-                <name value="Position"/>
-                <nameGiven value="Position"/>
-                <textValue value=""/>
-                <extended value="0"/>
-                <values curValue="667.910729" defaultValue="0" startValue="0" stopValue="5000"/>
-                <pointsOfInterest value="0"/>
-                <jumpToPointsOfInterest value="-1"/>
-                <speedFactor curValue="1" defaultValue="1" startValue="0.0001" stopValue="10"/>
-                <direction value="0"/>
-                <playmode value="1"/>
-                <playmodeAway value="0"/>
-                <linkMultiplier curValue="8" defaultValue="1" startValue="1" stopValue="4096"/>
-                <linkModifier curValue="0" defaultValue="0" startValue="0" stopValue="1"/>
-                <modifiers>
-                  <modifier type="4" index="1000">
-                    <properties>
-                      <easeIn value="0"/>
-                      <easeOut value="1"/>
-                      <option value="2"/>
-                    </properties>
-                  </modifier>
-                </modifiers>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position X"/>
-                <nameGiven value="Position X"/>
-              </parameter>
-              <parameter paramControlType="2">
-                <name value="Position Y"/>
-                <nameGiven value="Position Y"/>
-              </parameter>
-            </parameters>
-          </settings>
-          <effects>
-            <effect uniquePresetId="10000" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/InfiniteZoom.bundle/Contents/MacOS/InfiniteZoom"
-                    uniqueId="P205" name="Infinite Zoom">
-              <versionInfo name="Resolume Avenue" majorVersion="4" minorVersion="6" microVersion="1"
-                           revision="56475" id="0"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Rotation Speed"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Zoom"/>
-              </parameter>
-              <parameter>
-                <name value="param3"/>
-                <nameGiven value="Range"/>
-              </parameter>
-              <parameter>
-                <name value="param4"/>
-                <nameGiven value="Alpha"/>
-              </parameter>
-              <parameter>
-                <name value="param5"/>
-                <nameGiven value="Num Slices"/>
-              </parameter>
-            </effect>
-            <effect uniquePresetId="10000" fileName="/Applications/Resolume Avenue 4.6.1/plugins/vfx/AVFFGLBrightnessContrast.bundle/Contents/MacOS/AVFFGLBrightnessContrast"
-                    uniqueId="A102" name="Bright.Contrast">
-              <versionInfo name="Resolume Avenue" majorVersion="4" minorVersion="6" microVersion="1"
-                           revision="56475" id="0"/>
-              <parameter>
-                <name value="Opacity"/>
-                <nameGiven value="Opacity"/>
-              </parameter>
-              <parameter>
-                <name value="param1"/>
-                <nameGiven value="Brightness"/>
-                <values curValue="1" defaultValue="0.5" startValue="0" stopValue="1"/>
-              </parameter>
-              <parameter>
-                <name value="param2"/>
-                <nameGiven value="Contrast"/>
-                <values curValue="1" defaultValue="0.5" startValue="0" stopValue="1"/>
               </parameter>
             </effect>
           </effects>
